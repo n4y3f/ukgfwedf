@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N Y F # 7 0 6 1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div class="container">
+    <div class="box">
+        <h1>nyf#7061</h1>
+        <p><span class="auto-type">HTML</span>developer</p>
+        <h2>-</h2>
+        <a href="https://www.youtube.com/@nyf_"  target="_blank" attribute><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://xyl.lol/nyf"  target="_blank" attribute><i class="fa-solid fa-globe"></i></a>
+        <a href="https://discord.com/users/970420156088090655/"  target="_blank" attribute><i class="fa-brands fa-discord"></i></a>
+        <a href="https://github.com/iamnyf/"  target="_blank" attribute><i class="fa-brands fa-github"></i></a>
+    </div>
+</div>
+
+<script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+
+<script>
+    var typed = new Typed('.auto-type', {
+      strings: ['Full stack','Web', 'Javascript', 'HTML and CSS', 'Web', 'Javascript', 'HTML and CSS', 'Web', 'Javascript', 'HTML and CSS', 'Web', 'Javascript', 'HTML and CSS', 'Web', 'Javascript', 'HTML and CSS'],
+      typeSpeed: 150,
+      backSpeed: 200,
+      looped: true,
+    });
+  </script>
+
+  <script>
+
+function recursiveAnimateTitle(string) {
+  let firstLetter = string[0];
+  let title = document.querySelector('title');
+  title.innerHTML += firstLetter;
+  if (string.length > 1) {
+    setTimeout(function() {
+      recursiveAnimateTitle(string.substring(1));
+    }, 250);
+  }
+}
+
+function animateTitle(string) {
+  document.querySelector('title').innerHTML = "";
+  recursiveAnimateTitle(string);
+}
+
+animateTitle('N Y F # 7 0 6 1');
+  </script>
+</body>
+</html>
